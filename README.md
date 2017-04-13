@@ -11,11 +11,15 @@
 ### how to install opencvlib for python:
 
 for macOS: 
+
 ~~~bash
+brew install gtk+
 brew install opencv
 cp /usr/local/Cellar/opencv/2.4.13.2/lib/python2.7/site-packages/*  /usr/local/lib/python2.7/site-packages
 ~~~
+
 for ubuntu:
+
 ~~~bash
 apt install python-opencv
 ~~~
